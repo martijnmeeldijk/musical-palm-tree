@@ -17,3 +17,10 @@ config :a_demo_web, ADemoWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
+
+config :junit_formatter,
+  report_file: "report_file.xml",
+  # this is imported in your app! hence the double ..
+  report_dir: "../../test-reports",
+  print_report_file: true,
+  prepend_project_name?: true
