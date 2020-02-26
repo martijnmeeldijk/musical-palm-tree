@@ -3,8 +3,8 @@ use Mix.Config
 # Configure your database
 config :a_demo, ADemo.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "a_demo_dev",
+  password: "t",
+  database: "postgres",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
