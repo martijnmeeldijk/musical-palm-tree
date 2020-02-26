@@ -13,7 +13,7 @@ jobs:  # basic units of work in a run
           POSTGRES_PASSWORD: t
           
 
-    working_directory: ~  # directory where steps will run
+    working_directory: ~/a_demo_umbrella  # directory where steps will run
 
     steps:  # commands that comprise the `build` job
       - checkout  # check out source code to working directory
